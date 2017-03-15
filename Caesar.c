@@ -130,7 +130,7 @@ int main (int argc, char *argv[])
 		
 		char *myMsg = myString();		
 		int myMsgL = strlen(myMsg);
-		char *myMsgE = (char *) malloc(myMsgL*sizeof(char));
+		char *myMsgE = (char *) malloc((myMsgL + 1) *sizeof(char));
 		int i;
 		
 		for (i = 0; i < (myMsgL + 1); i++)
