@@ -8,7 +8,7 @@
 int main (int argc, char *argv[])
 {	
 	//clear screen
-	printf("\033[2J\033[1;1H");
+	system("cls");
 	
 	printf("\n*=============================================================================*\n"
 	       "*-Caesar Cipher Program                                                       *\n"
